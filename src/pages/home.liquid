@@ -1,0 +1,17 @@
+---
+permalink: /
+title: Koen de Ruiter
+---
+
+{% for p in projects.projects %}
+  <div class="project">
+    <img alt="Project sample photo" class="project__photo" src="{{ p.photo }}">
+
+    <div class="project__text">
+      <a href="{{ p.link }}" target="_blank">
+        <h2>{{ p.name }}</h2>
+      </a>
+      <p>{{ p.text }}</p>
+    </div>
+  </div>
+{% endfor %}

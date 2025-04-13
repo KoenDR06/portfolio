@@ -2,13 +2,52 @@
 
 .project {
     display: flex;
-    justify-content: space-evenly;
+
+    margin-bottom: 100px;
+}
+
+.project:nth-child(odd) {
+    justify-content: left;
+    flex-direction: row;
+}
+
+.project:nth-child(even) {
+    justify-content: right;
+    flex-direction: row-reverse;
+}
+
+.project:nth-child(odd) .project__photo {
+    margin-right: 50px;
+}
+
+.project:nth-child(even) .project__photo {
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .project h2 {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 2em;
+    font-size: 4em;
+
+    text-decoration: underline;
 
     color: vars.$accent-1;
+}
+
+.project p {
+    font-size: 1.5em;
+}
+
+.project__photo {
+    width: 500px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.project__text {
+    max-width: 50%;
 }

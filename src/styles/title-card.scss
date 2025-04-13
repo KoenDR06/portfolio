@@ -59,6 +59,7 @@
 }
 
 .background {
+    z-index: -30;
     position: absolute;
 
     width: 100vw;
@@ -67,13 +68,14 @@
     animation: flyIn ease 2s;
 }
 
-.fixtures {
-    display: flex;
-    justify-content: space-between;
+.fixtures > img {
+    position: absolute;
+
+    width: vars.$fixture-width;
 }
 
-.fixtures > img {
-    height: 600px;
+.fixtures > img.flip {
+    right: 0;
 }
 
 @keyframes flyIn {

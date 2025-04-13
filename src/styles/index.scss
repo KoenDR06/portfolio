@@ -12,6 +12,10 @@ body {
     transform: scaleX(-1);
 }
 
+main {
+    margin-left: vars.$fixture-width;
+    margin-right: vars.$fixture-width;
+}
 
 @include meta.load-css("title-card");
 @include meta.load-css("projects");

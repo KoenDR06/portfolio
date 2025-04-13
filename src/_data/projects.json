@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "name": "Mandelbrot",
+      "text": "A Mandelbrot renderer I made for a university course written in C#. It has multithreading, multiple color modes, and the ability to export and import renders as .mandel files, which is a file format specially created for this project.",
+      "photo": "/static/mandelbrot.jpg",
+      "link": "https://github.com/KoenDR06/UniMandelbrot"
+    },
+    {
+      "name": "AulaControl",
+      "text": "This project aimed to control the aula at my old high school using a USB to DMX converter written in Kotlin. It played music and controlled the lights during lunchtime.",
+      "photo": "/static/dmx.png",
+      "link": "https://github.com/AVTOLZ/AulaControl"
+    },
+    {
+      "name": "Advent Of Code",
+      "text": "All of my current advent of code solutions, written in Kotlin. Some of the worst code I've written, yet I learn a lot from it.",
+      "photo": "/static/aoc.png",
+      "link": "https://github.com/KoenDR06/nix-config"
+    },
+    {
+      "name": "nix-config",
+      "text": "The configurations for my NixOS machines. It includes configuration for all my apps, window managers, network, timezones, and more. It's also modularized so that adding a new machine with unique property is a breeze.",
+      "photo": "/static/nixos.svg",
+      "link": "https://github.com/KoenDR06/nix-config"
+    }
+  ]
+}
