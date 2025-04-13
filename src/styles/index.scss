@@ -1,0 +1,17 @@
+@use "sass:meta";
+@use "vars";
+
+body {
+    margin: 0;
+    font-family: "JetBrains Mono", serif;
+    background-color: vars.$bg-color;
+    color: vars.$primary;
+}
+
+.flip {
+    transform: scaleX(-1);
+}
+
+
+@include meta.load-css("title-card");
+@include meta.load-css("projects");

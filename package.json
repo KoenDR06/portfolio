@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "author": "KoenDR06",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-handlebars": "^1.0.0",
+    "handlebars": "^4.7.8",
+    "markdown-it": "^14.1.0",
+    "sass": "^1.86.3"
+  },
+  "scripts": {
+    "dev": "npx @11ty/eleventy --input src --serve",
+    "dev:sass": "npx sass src/styles:_site/styles --watch",
+
+    "build": "npx @11ty/eleventy --input src",
+    "build:sass": "npx sass src/styles:_site/styles"
+  }
+}

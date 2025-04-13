@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/waterdrops.css">
+  </head>
+
+  <body>
+    <div>
+      <div class="background">
+        <div class="fixtures">
+          <img class="fixture-photo" src="/static/fixture.png" alt="Ayrton Diablo S">
+          <img class="fixture-photo flip" src="/static/fixture.png" alt="Ayrton Diablo S">
+        </div>
+      </div>
+      <div class="front-page">
+        <div class="title-card">
+          <h1>Koen de Ruiter</h1>
+          <h2>Developer, Lighting Designer</h2>
+
+          <div class="title-card__links">
+            <a class="title-card__link" href="https://github.com/KoenDR06" target="_blank"><img class="title-card__image" src="/static/github.svg" alt="GitHub"></a>
+            <a class="title-card__link" href="https://www.linkedin.com/in/koen-de-ruiter-20a9a2343/" target="_blank"><img class="title-card__image" src="/static/linkedin.svg" alt="LinkedIn"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      {{ content }}
+    </main>
+  </body>
+</html>
