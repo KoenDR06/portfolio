@@ -10,7 +10,7 @@
 
     position: relative;
 
-    animation: flyIn ease 2s;
+    animation: flyIn ease-out vars.$load-speed;
 }
 
 .title-card {
@@ -65,23 +65,24 @@
     width: 100vw;
     height: 100vh;
 
-    animation: flyIn ease 2s;
+    animation: flyIn ease-out vars.$load-speed;
 }
 
-.fixtures > img {
+.beams > img {
+    opacity: 0.4;
+}
+
+.fixtures > img,
+.beams > img {
     position: absolute;
 
-    width: vars.$fixture-width;
-}
-
-.fixtures > img.flip {
-    right: 0;
+    width: 100vw;
 }
 
 @keyframes flyIn {
     0% {
         opacity: 0;
-        top: 50px;
+        top: vars.$load-size;
     }
 
     100% {

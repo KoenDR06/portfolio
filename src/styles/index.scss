@@ -6,16 +6,29 @@ body {
     font-family: "JetBrains Mono", serif;
     background-color: vars.$bg-color;
     color: vars.$primary;
-}
-
-.flip {
-    transform: scaleX(-1);
+    overflow-x: hidden;
 }
 
 main {
-    margin-left: vars.$fixture-width;
-    margin-right: vars.$fixture-width;
+    margin-left: vars.$side-margin;
+    margin-right: vars.$side-margin;
 }
 
 @include meta.load-css("title-card");
 @include meta.load-css("projects");
+
+@media (max-width: 1500px) {
+    main {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .project {
+        justify-content: left !important;
+        flex-direction: row !important;
+    }
+
+    .project__photo {
+        margin: 0 50px 0 0 !important;
+    }
+}
