@@ -1,6 +1,5 @@
 function clamp(value, min, max) { return Math.max( min, Math.min(value, max) ); }
 
-const body = document.querySelector('body');
 const beams = document.querySelector(".beams");
 
 window.addEventListener("scroll", function(){

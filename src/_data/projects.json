@@ -19,7 +19,7 @@
       "link": "https://github.com/KoenDR06/nix-config"
     },
     {
-      "name": "nix-config",
+      "name": "NixOS Config",
       "text": "The configurations for my NixOS machines. It includes configuration for all my apps, window managers, network, timezones, and more. It's also modularized so that adding a new machine with unique property is a breeze.",
       "photo": "/static/nixos.svg",
       "link": "https://github.com/KoenDR06/nix-config"

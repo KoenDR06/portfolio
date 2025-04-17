@@ -1,0 +1,60 @@
+@use "vars";
+
+body {
+    margin: 0;
+    font-family: "JetBrains Mono", serif;
+    background-color: vars.$bg-color;
+    color: vars.$primary;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+
+    animation: flyIn ease-out vars.$load-speed;
+}
+
+.slideshow {
+    border: 5px solid vars.$secondary;
+    border-radius: 15px;
+}
+
+img {
+    height: 80vh;
+    width: auto;
+    max-width: 80vw;
+
+
+    object-fit: contain;
+}
+
+.hidden {
+    display: none;
+}
+
+// --- CONTROLS ---
+.control {
+    height: 40px;
+}
+
+button {
+    background: inherit;
+    border: 0;
+}
+
+.controls {
+    margin-top: 10px;
+    border: 5px solid vars.$secondary;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+}
