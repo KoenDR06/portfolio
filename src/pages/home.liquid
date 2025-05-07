@@ -9,9 +9,10 @@ title: Koen de Ruiter
     <img alt="Project sample photo" class="project__photo" src="{{ p.photo }}">
 
     <div class="project__text">
-      <a href="{{ p.link }}" target="_blank">
+      <div class="project__title-line">
+        <a href="{{ p.link }}" target="_blank"><img src="/static/github.svg"></a>
         <h2>{{ p.name }}</h2>
-      </a>
+      </div>
       <p>{{ p.text }}</p>
     </div>
   </div>

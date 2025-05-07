@@ -1,22 +1,28 @@
 {
   "projects": [
     {
+      "name": "Comedy TUI",
+      "text": "This is an app I built for my work in comedy shows. It's a really simple terminal UI that has a stopwatch, room for notes, and manages the music currently playing. It enables me to focus on the important parts of the job, which is great.",
+      "photo": "/static/mic.svg",
+      "link": "https://github.com/KoenDR06/ComedyTUI"
+    },
+    {
       "name": "Mandelbrot",
-      "text": "A Mandelbrot renderer I made for a university course written in C#. It has multithreading, multiple color modes, and the ability to export and import renders as .mandel files, which is a file format specially created for this project.",
+      "text": "A Mandelbrot renderer I made for a university course written in C#. It is multithreaded, has multiple color modes, and the ability to export and import renders as .mandel files, which is a file format specially created for this project.",
       "photo": "/static/mandelbrot.jpg",
       "link": "https://github.com/KoenDR06/UniMandelbrot"
     },
     {
       "name": "AulaControl",
-      "text": "This project aimed to control the aula at my old high school using a USB to DMX converter written in Kotlin. It played music and controlled the lights during lunchtime.",
-      "photo": "/static/dmx.png",
+      "text": "This project aimed to control the auditorium at my old high school using a USB to DMX converter written in Kotlin. It played music and controlled the lights during lunchtime.",
+      "photo": "/static/music.svg",
       "link": "https://github.com/AVTOLZ/AulaControl"
     },
     {
       "name": "Advent Of Code",
-      "text": "All of my current advent of code solutions, written in Kotlin. Some of the worst code I've written, yet I learn a lot from it.",
+      "text": "All of my current Advent of Code solutions, written in Kotlin. Some of the worst code I've written, yet I've learnt a ton from it.",
       "photo": "/static/aoc.png",
-      "link": "https://github.com/KoenDR06/nix-config"
+      "link": "https://github.com/KoenDR06/AdventOfCode"
     },
     {
       "name": "NixOS Config",

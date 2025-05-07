@@ -1,0 +1,12 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="music" class="icon glyph" fill="#7dc4e4" stroke="#7dc4e4" stroke-width="0.00024000000000000003">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<ellipse cx="6.5" cy="18" rx="4.5" ry="4" style="fill:#7dc4e4"/>
+<ellipse cx="17.5" cy="16" rx="4.5" ry="4" style="fill:#7dc4e4"/>
+<path d="M10,19a1,1,0,0,1-1-1V5a1,1,0,0,1,.82-1l11-2a1,1,0,0,1,.82.21A1,1,0,0,1,22,3V16a1,1,0,0,1-2,0V4.2L11,5.83V18A1,1,0,0,1,10,19Z" style="fill:#7dc4e4"/>
+<path d="M10,10a1,1,0,0,1-.18-2l11-2a1,1,0,1,1,.36,2l-11,2Z" style="fill:#7dc4e4"/>
+</g>
+</svg>

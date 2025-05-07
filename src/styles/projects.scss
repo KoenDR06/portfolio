@@ -29,12 +29,22 @@ a {
     text-decoration: none;
 }
 
+.project__text img {
+  width: 4em;
+  height: auto;
+
+  margin-right: 1em;
+}
+
+.project__title-line {
+  display: flex;
+  align-items: center;
+}
+
 .project h2 {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 4em;
-
-    text-decoration: underline;
 
     color: vars.$accent-1;
 }
