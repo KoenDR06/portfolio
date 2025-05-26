@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "name": "Raytracer",
+      "text": "A raytracer written completely in C++ I made for a university assignment. It's not the most advanced, but I am proud of it (and the fact the entire thing was made in like 1.5 weeks)",
+      "photo": "/static/raytracer.webp",
+      "link": "https://github.com/KoenDR06/Raytracer"
+    },
+    {
       "name": "Comedy TUI",
       "text": "This is an app I built for my work in comedy shows. It's a really simple terminal UI that has a stopwatch, room for notes, and manages the music currently playing. It enables me to focus on the important parts of the job, which is great.",
       "photo": "/static/mic.svg",
