@@ -2,9 +2,9 @@
   "projects": [
     {
       "name": "Raytracer",
-      "text": "A raytracer written completely in C++ I made for a university assignment. It's not the most advanced, but I am proud of it (and the fact the entire thing was made in like 1.5 weeks)",
+      "text": "A raytracer written completely in C++ I made for a university assignment. It's not the most advanced, but I am proud of it (and the fact the entire thing was made in 9 days), Unfortunately, the university bars me from putting the source code online.",
       "photo": "/static/raytracer.webp",
-      "link": "https://github.com/KoenDR06/Raytracer"
+      "link": ""
     },
     {
       "name": "Comedy TUI",
@@ -14,9 +14,9 @@
     },
     {
       "name": "Mandelbrot",
-      "text": "A Mandelbrot renderer I made for a university course written in C#. It is multithreaded, has multiple color modes, and the ability to export and import renders as .mandel files, which is a file format specially created for this project.",
+      "text": "A Mandelbrot renderer I made for a university course written in C#. It is multithreaded, has multiple color modes, and the ability to export and import renders as .mandel files, which is a file format specially created for this project. Unfortunately, the university bars me from putting the source code online.",
       "photo": "/static/mandelbrot.jpg",
-      "link": "https://github.com/KoenDR06/UniMandelbrot"
+      "link": ""
     },
     {
       "name": "AulaControl",

@@ -10,7 +10,7 @@ title: Koen de Ruiter
 
     <div class="project__text">
       <div class="project__title-line">
-        <a href="{{ p.link }}" target="_blank"><img src="/static/github.svg"></a>
+        {% if p.link != "" %}<a href="{{ p.link }}" target="_blank"><img src="/static/github.svg"></a> {% endif %}
         <h2>{{ p.name }}</h2>
       </div>
       <p>{{ p.text }}</p>
