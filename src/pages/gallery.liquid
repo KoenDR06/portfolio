@@ -6,7 +6,7 @@ layout: empty
 
 <div class="wrapper">
   <div class="slideshow">
-    <img alt="Photo" src="/static/gallery/{{ photos.photos[0] }}">
+    <img alt="Photo" src="https://public.koendev.nl/{{ photos.photos[0] }}">
   </div>
   <div class="controls">
     <button id="prev"><img src="/static/prev.svg" class="control" alt="Previous photo"></button>
@@ -25,14 +25,14 @@ layout: empty
     let i = 1;
 
     function next() {
-        img.src = `/static/gallery/${photos[i++]}`;
+        img.src = `https://public.koendev.nl/${photos[i++]}`;
         if (i >= photos.length) {
             i = 0;
         }
     }
 
     function prev() {
-        img.src = `/static/gallery/${photos[i--]}`;
+        img.src = `https://public.koendev.nl/${photos[i--]}`;
         if (i < 0) {
             i = photos.length-1;
         }

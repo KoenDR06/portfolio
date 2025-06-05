@@ -1,6 +1,5 @@
 .idea/
 _site/
 node_modules/
-src/static/gallery/
 
 package-lock.json
