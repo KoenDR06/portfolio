@@ -49,6 +49,14 @@ a {
     color: vars.$accent-1;
 }
 
+.projects-header {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 5em;
+
+    color: vars.$accent-2;
+}
+
 .project p {
     font-size: 1.5em;
 }

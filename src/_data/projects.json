@@ -1,40 +1,31 @@
 {
-  "projects": [
-    {
-      "name": "Raytracer",
-      "text": "A raytracer written completely in C++ I made for a university assignment. It's not the most advanced, but I am proud of it (and the fact the entire thing was made in 9 days), Unfortunately, the university bars me from putting the source code online.",
-      "photo": "/static/raytracer.webp",
-      "link": ""
-    },
-    {
-      "name": "Comedy TUI",
-      "text": "This is an app I built for my work in comedy shows. It's a really simple terminal UI that has a stopwatch, room for notes, and manages the music currently playing. It enables me to focus on the important parts of the job, which is great.",
-      "photo": "/static/mic.svg",
-      "link": "https://github.com/KoenDR06/ComedyTUI"
-    },
-    {
-      "name": "Mandelbrot",
-      "text": "A Mandelbrot renderer I made for a university course written in C#. It is multithreaded, has multiple color modes, and the ability to export and import renders as .mandel files, which is a file format specially created for this project. Unfortunately, the university bars me from putting the source code online.",
-      "photo": "/static/mandelbrot.jpg",
-      "link": ""
-    },
-    {
-      "name": "AulaControl",
-      "text": "This project aimed to control the auditorium at my old high school using a USB to DMX converter written in Kotlin. It played music and controlled the lights during lunchtime.",
-      "photo": "/static/music.svg",
-      "link": "https://github.com/AVTOLZ/AulaControl"
-    },
-    {
-      "name": "Advent Of Code",
-      "text": "All of my current Advent of Code solutions, written in Kotlin. Some of the worst code I've written, yet I've learnt a ton from it.",
-      "photo": "/static/aoc.png",
-      "link": "https://github.com/KoenDR06/AdventOfCode"
-    },
+  "personal-projects": [
     {
       "name": "NixOS Config",
-      "text": "The configurations for my NixOS machines. It includes configuration for all my apps, window managers, network, timezones, and more. It's also modularized so that adding a new machine with unique property is a breeze.",
+      "text": "The configuration for all my NixOS machines. It is fully modularized, and has a custom module for all Hyprland configuration options.",
       "photo": "/static/nixos.svg",
       "link": "https://github.com/KoenDR06/nix-config"
+    }
+  ],
+  "contributed-projects": [
+    {
+      "name": "sadserver",
+      "text": [
+        "Upgraded the playbooks to be compatible with Ubuntu 24.04",
+        "Helped writing the playbok for a new website"
+      ],
+      "photo": "/static/sadserver.svg",
+      "link": "https://github.com/svsticky/sadserver"
+    },
+    {
+      "name": "radio",
+      "text": [
+        "Added a keybind to pause to debug elements easier",
+        "Added a weather widget",
+        "Made activities show participants"
+      ],
+      "photo": "/static/radio.svg",
+      "link": "https://github.com/svsticky/radio"
     }
   ]
 }

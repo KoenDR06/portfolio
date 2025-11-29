@@ -1,10 +1,13 @@
 ---
 permalink: /
 title: Koen de Ruiter
+subtitles:
+- "Hobby Developer"
+- "Lighting Designer"
 ---
 
-<script src="/static/floater.js" defer></script>
-{% for p in projects.projects %}
+<h1 class="projects-header">Personally Authored</h1>
+{% for p in projects.personal-projects %}
   <div class="project">
     <img alt="Project sample photo" class="project__photo" src="{{ p.photo }}">
 
@@ -13,7 +16,26 @@ title: Koen de Ruiter
         {% if p.link != "" %}<a href="{{ p.link }}" target="_blank"><img src="/static/github.svg"></a> {% endif %}
         <h2>{{ p.name }}</h2>
       </div>
-      <p>{{ p.text }}</p>
+      {% for par in p.text %}
+        <p>{{ par }}</p>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+
+<h1 class="projects-header">Contributed</h1>
+{% for p in projects.contributed-projects %}
+  <div class="project">
+    <img alt="Project sample photo" class="project__photo" src="{{ p.photo }}">
+
+    <div class="project__text">
+      <div class="project__title-line">
+        {% if p.link != "" %}<a href="{{ p.link }}" target="_blank"><img src="/static/github.svg"></a> {% endif %}
+        <h2>{{ p.name }}</h2>
+      </div>
+      {% for par in p.text %}
+        <p>{{ par }}</p>
+      {% endfor %}
     </div>
   </div>
 {% endfor %}

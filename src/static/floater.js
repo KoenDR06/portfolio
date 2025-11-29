@@ -11,5 +11,4 @@ window.addEventListener("scroll", function(){
     }
 
     beams.style.opacity = 1-2*yPos;
-    beams.style.display = 1-2*yPos < 0 ? 'none' : 'block'
 });
