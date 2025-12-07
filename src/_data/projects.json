@@ -4,7 +4,13 @@
       "name": "NixOS Config",
       "text": "The configuration for all my NixOS machines. It is fully modularized, and has a custom module for all Hyprland configuration options.",
       "photo": "/static/nixos.svg",
-      "link": "https://github.com/KoenDR06/nix-config"
+      "link": "https://git.koendev.nl/Koen/nix-config"
+    },
+    {
+      "name": "Advent Of Code",
+      "text": "My Advent Of Code solutions for 2025, written in Haskell.",
+      "photo": "/static/aoc.png",
+      "link": "https://git.koendev.nl/Koen/AdventOfCode25"
     }
   ],
   "contributed-projects": [
